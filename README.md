@@ -1,5 +1,4 @@
 ## 📦 Docker Image Commands
----
 
 | 🛠️ Command    | 📄 Description                              | 🧪 Example                                | 🔤 Icon |
 | -------------- | ------------------------------------------- | ----------------------------------------- | ------- |
@@ -13,9 +12,9 @@
 | docker load    | Load image from a tar archive               | ```bash\ndocker load -i app.tar\n```      | 📂      |
 | docker inspect | Detailed info about image/container/network | ```bash\ndocker inspect nginx\n```        | 🔍      |
 
-## 📁 Docker Volume Commands
-
 ---
+
+## 📁 Docker Volume Commands
 
 | 🛠️ Command           | 📄 Description            | 🧪 Example                         | 🔤 Icon |
 | --------------------- | ------------------------- | ---------------------------------- | ------- |
@@ -25,9 +24,9 @@
 | docker volume rm      | Remove a volume           | `docker volume rm myvol`           | ❌       |
 | docker run -v         | Mount volume to container | `docker run -v myvol:/data alpine` | 📦      |
 
-## 🌐 Docker Network Commands
+---
 
---
+## 🌐 Docker Network Commands
 
 | 🛠️ Command            | 📄 Description                 | 🧪 Example                         | 🔤 Icon |
 | ---------------------- | ------------------------------ | ---------------------------------- | ------- |
@@ -37,9 +36,10 @@
 | docker network rm      | Remove a network               | `docker network rm mynet`          | ❌       |
 | docker run --network   | Connect container to a network | `docker run --network=mynet nginx` | 🔌      |
 
-## 🧬 Docker Compose Commands
-
 ---
+
+
+## 🧬 Docker Compose Commands
 
 | 🛠️ Command          | 📄 Description                              | 🧪 Example                     | 🔤 Icon |
 | -------------------- | ------------------------------------------- | ------------------------------ | ------- |
@@ -50,9 +50,9 @@
 | docker-compose logs  | View logs                                   | `docker-compose logs -f`       | 📜      |
 | docker-compose exec  | Run command in a running service            | `docker-compose exec web bash` | 💬      |
 
-## 🧹 Docker System Cleanup
-
 ---
+
+## 🧹 Docker System Cleanup
 
 | 🛠️ Command            | 📄 Description            | 🧪 Example               | 🔤 Icon |
 | ---------------------- | ------------------------- | ------------------------ | ------- |
@@ -62,9 +62,9 @@
 | docker container prune | Remove stopped containers | `docker container prune` | 🚮      |
 | docker network prune   | Remove unused networks    | `docker network prune`   | 🌐      |
 
-## 🛠️ Docker Troubleshooting Commands
-
 ---
+
+## 🛠️ Docker Troubleshooting Commands
 
 | 🛠️ Command     | 📄 Description                          | 🧪 Example                   | 🔤 Icon |
 | --------------- | --------------------------------------- | ---------------------------- | ------- |
@@ -76,10 +76,9 @@
 | docker exec -it | Run command inside running container    | `docker exec -it myapp bash` | 🔧      |
 | docker inspect  | Detailed JSON output about resources    | `docker inspect myapp`       | 🔍      |
 
+---
 
 ## 🛠️ Dockerfile Commands – Complete List with Explanations & Icons
-
----
 
 | 🔤 Command    | 🧠 Description                                                                                | 🧪 Example                                                                   | 🪄 Icon |
 |--------------|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|---------|
@@ -101,5 +100,4 @@
 | ONBUILD      | Trigger instruction for when the image is used as a base in another build.                    | `ONBUILD COPY . /app`                                                        | 🧨      |
 | STOPSIGNAL   | Sets the system call signal to stop the container.                                            | `STOPSIGNAL SIGTERM`                                                         | 🛑      |
 
-
-## 
+---
