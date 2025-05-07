@@ -1,3 +1,6 @@
+##  Docker Image Commands
+---
+
 | 🛠️ Command    | 📄 Description                              | 🧪 Example                                | 🔤 Icon |
 | -------------- | ------------------------------------------- | ----------------------------------------- | ------- |
 | docker build   | Build an image from a Dockerfile            | ```bash\ndocker build -t myapp .\n```     | 🏗️     |
