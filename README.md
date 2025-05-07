@@ -101,3 +101,34 @@
 | STOPSIGNAL   | Sets the system call signal to stop the container.                                            | `STOPSIGNAL SIGTERM`                                                         | 🛑      |
 
 ---
+
+## 🔥 Production-Level Commands Cheat Table with Icons
+
+| 🔢 #   | 🛠️ Command                                  | 📘 Description                                          | ⚙️ Use-case (When/Why used)                              |
+|--------|---------------------------------------------|--------------------------------------------------------|----------------------------------------------------------|
+| 1️⃣    | `git clone <repo-url>`                      | 📥 Repo ko local machine pe clone karta hai            | 🔧 Jab developer kisi ek service pe kaam start karta hai |
+| 2️⃣    | `git checkout -b feature/<name>`            | 🌿 New branch banata hai changes ke liye               | ✅ Production-safe code separation                        |
+| 3️⃣    | `git pull origin main`                      | 🔄 Latest production/main code laata hai               | ⚠️ Merge conflict avoid karne ke liye                    |
+| 4️⃣    | `git push origin feature/<name>`            | ⬆️ Apne feature branch ko push karta hai               | 🚀 Review aur CI/CD ke liye PR banane se pehle           |
+| 5️⃣    | `docker-compose up -d`                      | 🐳 Services ko background me run karta hai             | 🧪 Local testing without affecting prod                  |
+| 6️⃣    | `docker-compose down`                       | 🧹 Sab containers ko stop & remove karta hai           | 🚪 Local environment clean karne ke liye                 |
+| 7️⃣    | `docker build -t <image-name> .`            | 🏗️ Docker image banata hai                            | 📦 Manual Docker build in CI/CD ya testing ke liye       |
+| 8️⃣    | `docker push <image-name>`                  | 🚀 Docker image ko registry me bhejta hai              | 🔁 Deployment pipeline me use hota hai                   |
+| 9️⃣    | `kubectl apply -f deploy.yml`               | 🧬 Kubernetes me config apply karta hai                | ☁️ Cloud deploy with versioned configs                   |
+| 🔟     | `mongo` / `mongosh`                         | 🗃️ MongoDB shell open karta hai                       | 🔍 DB debug ya query testing ke liye                     |
+| 1️⃣1️⃣ | `redis-cli`                                 | 🧠 Redis ke saath CLI se interact karta hai            | ⚡ Caching inspect/flush ke liye                          |
+| 1️⃣2️⃣ | `kafka-console-producer.sh`                 | 📨 Kafka pe message bhejne ke liye                     | 🛠️ Kafka topic testing/dev ke liye                      |
+| 1️⃣3️⃣ | `kafka-console-consumer.sh`                 | 📩 Kafka se messages read karta hai                    | 👁️ Topic monitoring and debugging                       |
+| 1️⃣4️⃣ | `nginx -t`                                  | 🧪 NGINX config ka syntax test karta hai               | 🚦 Before restarting NGINX server                        |
+| 1️⃣5️⃣ | `nginx -s reload`                           | 🔄 NGINX ko config changes ke baad reload karta hai    | ⚙️ Zero downtime config update ke liye                   |
+| 1️⃣6️⃣ | `git merge feature/<name>`                  | 🧵 Feature branch ko main me merge karta hai           | ✅ Final QA/HR approval ke baad                           |
+| 1️⃣7️⃣ | `docker logs <container-id>`                | 📋 Container logs dekhne ke liye                       | 🐞 Debugging production issues                           |
+| 1️⃣8️⃣ | `docker exec -it <container> bash`          | 🧳 Container ke andar jaake kaam karne ke liye         | 🔍 Troubleshooting live containers                       |
+| 1️⃣9️⃣ | `npm run build`                             | 🛠️ Production-ready JS/CSS files banata hai           | 🏗️ Frontend deploy ke liye                              |
+| 2️⃣0️⃣ | `curl -X GET/POST http://localhost:port/api`| 🌐 API testing CLI se karne ke liye                    | 🔍 Endpoint check without Postman                        |
+| 2️⃣1️⃣ | `git rebase main`                           | 🧬 Feature branch ko latest main ke sath sync karta hai| 🧽 Clean & linear git history                            |
+| 2️⃣2️⃣ | `pm2 start app.js`                          | 🚀 Node app ko production me run karta hai             | ♻️ Process manager with auto-restart                     |
+| 2️⃣3️⃣ | `pm2 logs`                                  | 📜 Real-time logs dekhne ke liye                       | 🧠 Production issue trace karne ke liye                  |
+| 2️⃣4️⃣ | `pm2 restart all`                           | 🔁 All PM2 managed apps ko restart karta hai           | 🛠️ After environment config update                      |
+
+---
