@@ -362,6 +362,7 @@ Welcome to the most practical + complete 🔥 Computer Science Engineering Knowl
   - [🎛️ Configuration Management](#️-configuration-management)
   - [🤖 AI Ethics](#-ai-ethics)
   - [📊 Business + Tech](#-business--tech)
+  - [🧑‍💻 Backend Developer Roadmap](#-backend-developer-roadmap)
   - [❤️ Made with love by Kaushik](#️-made-with-love-by-kaushik)
 
 ---
@@ -508,6 +509,22 @@ Welcome to the most practical + complete 🔥 Computer Science Engineering Knowl
 - 🔹 CAC, LTV, Burn Rate
 - 🔹 SaaS Metrics, Retention
 - 🔹 Tech + Product Fit
+
+## 🧑‍💻 Backend Developer Roadmap
+- 🔹 Core Programming (JS, Python, Go, TS, Java)
+- 🔹 Web Servers (Express.js, FastAPI, Spring Boot)
+- 🔹 Databases (SQL + NoSQL)
+- 🔹 Authentication (JWT, OAuth2, Sessions)
+- 🔹 Caching (Redis)
+- 🔹 Queues (RabbitMQ, Kafka)
+- 🔹 File Storage (S3, Local, Cloudinary)
+- 🔹 API Design (REST, GraphQL)
+- 🔹 Docker + Containers
+- 🔹 NGINX, Load Balancer
+- 🔹 CI/CD Pipelines
+- 🔹 Logs & Monitoring (Prometheus, Grafana, ELK)
+- 🔹 Security Best Practices
+- 🔹 Deployment (AWS, DigitalOcean, Railway)
 
 ---
 
