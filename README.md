@@ -321,6 +321,201 @@ module.exports = {
 };
 ```
 
+# 👨‍💻 100% Computer Science Engineer Deep Dive (Kaushik's Ultimate Guide)
+
+Welcome to the most practical + complete 🔥 Computer Science Engineering Knowledge Repo — designed by Kaushik, for Kaushik. Hinglish mein samjha gaya hai, real-world job ke hisaab se sorted hai 👇
+
+---
+
+## 📚 Table of Contents
+
+- [🚀 React Native TypeScript Project Setup](#-react-native-typescript-project-setup)
+  - [📦 Install Dependencies (One-by-One)](#-install-dependencies-one-by-one)
+  - [🧰 Expo Native Dependencies (If Using Expo)](#-expo-native-dependencies-if-using-expo)
+  - [🍎 iOS CocoaPods (For Non-Expo iOS Projects)](#-ios-cocoapods-for-non-expo-ios-projects)
+  - [⚙️ Reanimated Configuration](#️-reanimated-configuration)
+- [👨‍💻 100% Computer Science Engineer Deep Dive (Kaushik's Ultimate Guide)](#-100-computer-science-engineer-deep-dive-kaushiks-ultimate-guide)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [⚙️ Operating Systems](#️-operating-systems)
+  - [🧵 Computer Networks](#-computer-networks)
+  - [💾 DBMS](#-dbms)
+  - [🔒 Cybersecurity](#-cybersecurity)
+  - [🧮 Compiler Design](#-compiler-design)
+  - [🔢 Discrete Mathematics](#-discrete-mathematics)
+  - [💡 Digital Electronics](#-digital-electronics)
+  - [🧾 Automata Theory](#-automata-theory)
+  - [🧪 Software Testing](#-software-testing)
+  - [📦 Software Engineering](#-software-engineering)
+  - [⚛️ Design Patterns](#️-design-patterns)
+  - [🧰 Tools and IDEs](#-tools-and-ides)
+  - [🧱 Version Control](#-version-control)
+  - [☁️ Cloud and Deployment](#️-cloud-and-deployment)
+  - [🛡️ Data Privacy](#️-data-privacy)
+  - [🌐 Web Protocols](#-web-protocols)
+  - [🔄 Event Loop and Concurrency](#-event-loop-and-concurrency)
+  - [⚗️ API Design](#️-api-design)
+  - [📈 Complexity](#-complexity)
+  - [🧠 LLD (Low Level Design)](#-lld-low-level-design)
+  - [🏗️ HLD (High Level Design)](#️-hld-high-level-design)
+  - [🧩 Middleware](#-middleware)
+  - [👾 Emulator vs Simulator](#-emulator-vs-simulator)
+  - [🎛️ Configuration Management](#️-configuration-management)
+  - [🤖 AI Ethics](#-ai-ethics)
+  - [📊 Business + Tech](#-business--tech)
+  - [❤️ Made with love by Kaushik](#️-made-with-love-by-kaushik)
+
+---
+
+## ⚙️ Operating Systems
+- 🔹 Process vs Thread
+- 🔹 Context Switching
+- 🔹 Memory Management (Heap/Stack)
+- 🔹 Virtual Memory, Paging
+- 🔹 Scheduling Algorithms (FCFS, RR, SJF)
+- 🔹 Deadlock Conditions + Banker's Algorithm
+
+## 🧵 Computer Networks
+- 🔹 OSI vs TCP/IP Layers
+- 🔹 HTTP vs HTTPS
+- 🔹 IP Addressing, Subnetting
+- 🔹 DNS, DHCP, NAT
+- 🔹 WebSockets, TCP/UDP
+
+## 💾 DBMS
+- 🔹 ER Diagrams, Relationships
+- 🔹 Indexing, Views, Triggers
+- 🔹 Transactions, ACID Properties
+- 🔹 Normalization (1NF–3NF, BCNF)
+- 🔹 SQL Joins (Inner, Left, Right, Full)
+
+## 🔒 Cybersecurity
+- 🔹 OWASP Top 10
+- 🔹 HTTPS, TLS, SSL
+- 🔹 JWT, OAuth2, CORS
+- 🔹 SQL Injection, XSS
+- 🔹 Hashing (SHA, Bcrypt), Encryption (AES, RSA)
+
+## 🧮 Compiler Design
+- 🔹 Tokenization, Lexical Analysis
+- 🔹 Syntax Tree, Grammar
+- 🔹 Parser Types (LL, LR)
+- 🔹 Intermediate Code Generation
+
+## 🔢 Discrete Mathematics
+- 🔹 Set Theory, Relations
+- 🔹 Graph Theory, Trees
+- 🔹 Propositional Logic
+- 🔹 Permutations, Combinations
+- 🔹 Boolean Algebra
+
+## 💡 Digital Electronics
+- 🔹 Binary, Octal, Hex
+- 🔹 Logic Gates (AND, OR, XOR, NAND)
+- 🔹 Flip-Flops, Multiplexers
+- 🔹 Counters, Registers
+
+## 🧾 Automata Theory
+- 🔹 DFA, NFA
+- 🔹 CFG (Context Free Grammar)
+- 🔹 Turing Machines
+- 🔹 Regular Expressions
+
+## 🧪 Software Testing
+- 🔹 Unit Testing (Jest, Pytest, JUnit)
+- 🔹 Integration Testing
+- 🔹 Manual vs Automated Testing
+- 🔹 TDD / BDD
+
+## 📦 Software Engineering
+- 🔹 SDLC Models (Agile, Waterfall)
+- 🔹 Requirements Analysis
+- 🔹 SRS, UML, Use Cases
+
+## ⚛️ Design Patterns
+- 🔹 Singleton, Factory
+- 🔹 Strategy, Adapter
+- 🔹 Observer, Proxy
+
+## 🧰 Tools and IDEs
+- 🔹 VSCode, IntelliJ, PyCharm
+- 🔹 Postman, Docker, Figma
+- 🔹 Firebase, JIRA, GitHub
+
+## 🧱 Version Control
+- 🔹 Git Basics, Branching
+- 🔹 PR Flow, Merge Conflicts
+- 🔹 Git Hooks
+
+## ☁️ Cloud and Deployment
+- 🔹 AWS EC2, S3, Route 53
+- 🔹 Firebase Hosting
+- 🔹 CI/CD Pipelines
+- 🔹 NGINX, Docker Compose
+
+## 🛡️ Data Privacy
+- 🔹 GDPR Basics
+- 🔹 Cookies, User Consent
+- 🔹 Data Collection Limits
+
+## 🌐 Web Protocols
+- 🔹 HTTP Methods, Status Codes
+- 🔹 MIME Types, Headers
+- 🔹 WebSockets, Caching
+
+## 🔄 Event Loop and Concurrency
+- 🔹 JS Event Loop, Call Stack
+- 🔹 Promises, async/await
+- 🔹 Threading, Workers
+
+## ⚗️ API Design
+- 🔹 REST vs GraphQL
+- 🔹 OpenAPI Spec
+- 🔹 Versioning, Pagination
+
+## 📈 Complexity
+- 🔹 Time/Space Tradeoffs
+- 🔹 Big O Analysis (All Cases)
+- 🔹 Recursion Tree, DP Table
+
+## 🧠 LLD (Low Level Design)
+- 🔹 Class Diagrams
+- 🔹 OOPS Deep Dive
+- 🔹 Object Modeling (UML)
+
+## 🏗️ HLD (High Level Design)
+- 🔹 Scalable Architecture
+- 🔹 Load Balancer, CDN
+- 🔹 Queue System (Kafka, RabbitMQ)
+
+## 🧩 Middleware
+- 🔹 Redis Pub/Sub
+- 🔹 Kafka Streams
+- 🔹 RabbitMQ Queues
+
+## 👾 Emulator vs Simulator
+- 🔹 Real Devices vs Virtual
+- 🔹 Debugging & Logs
+
+## 🎛️ Configuration Management
+- 🔹 Ansible, Helm, Chef
+- 🔹 Environment Variables
+
+## 🤖 AI Ethics
+- 🔹 Bias, Explainability
+- 🔹 Consent Based Datasets
+
+## 📊 Business + Tech
+- 🔹 CAC, LTV, Burn Rate
+- 🔹 SaaS Metrics, Retention
+- 🔹 Tech + Product Fit
+
+---
+
+Want to contribute or track your learning here? Make a Fork or Star ⭐
+
+📬 Connect: kaushik@curoster.com
+
+
 ---
 
 ## ❤️ Made with love by Kaushik
