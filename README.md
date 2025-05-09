@@ -132,3 +132,197 @@
 | 2️⃣4️⃣ | `pm2 restart all`                           | 🔁 All PM2 managed apps ko restart karta hai           | 🛠️ After environment config update                      |
 
 ---
+
+# 🚀 React Native TypeScript Project Setup
+
+Welcome to your React Native project! Follow these clean and organized steps to install all necessary dependencies and configure the environment properly.
+
+---
+
+## 📦 Install Dependencies (One-by-One)
+
+```bash
+npm install @react-native-async-storage/async-storage
+```
+```bash
+npm install @react-native-clipboard/clipboard
+```
+```bash
+npm install @react-native-community/blur
+```
+```bash
+npm install @react-navigation/bottom-tabs
+```
+```bash
+npm install @react-navigation/native
+```
+```bash
+npm install @react-navigation/native-stack
+```
+```bash
+npm install @reduxjs/toolkit
+```
+```bash
+npm install @types/react-native
+```
+```bash
+npm install axios
+```
+```bash
+npm install d3-shape
+```
+```bash
+npm install expo-av
+```
+```bash
+npm install formik
+```
+```bash
+npm install i18next
+```
+```bash
+npm install lottie-react-native
+```
+```bash
+npm install react
+```
+```bash
+npm install react-i18next
+```
+```bash
+npm install react-native
+```
+```bash
+npm install react-native-confetti-cannon
+```
+```bash
+npm install react-native-dotenv
+```
+```bash
+npm install react-native-gesture-handler
+```
+```bash
+npm install react-native-get-random-values
+```
+```bash
+npm install react-native-haptic-feedback
+```
+```bash
+npm install react-native-keyboard-aware-scroll-view
+```
+```bash
+npm install react-native-linear-gradient
+```
+```bash
+npm install react-native-localize
+```
+```bash
+npm install react-native-mmkv
+```
+```bash
+npm install react-native-reanimated
+```
+```bash
+npm install react-native-reanimated-carousel
+```
+```bash
+npm install react-native-reanimated-numbers
+```
+```bash
+npm install react-native-responsive-fontsize
+```
+```bash
+npm install react-native-rolling-bar
+```
+```bash
+npm install react-native-safe-area-context
+```
+```bash
+npm install react-native-screens
+```
+```bash
+npm install react-native-snap-carousel
+```
+```bash
+npm install react-native-sound
+```
+```bash
+npm install react-native-svg
+```
+```bash
+npm install react-native-svg-transformer
+```
+```bash
+npm install react-native-switch
+```
+```bash
+npm install react-native-unistyles
+```
+```bash
+npm install react-native-vector-icons
+```
+```bash
+npm install react-native-video
+```
+```bash
+npm install react-native-wheel-of-fortune
+```
+```bash
+npm install react-redux
+```
+```bash
+npm install redux-persist
+```
+```bash
+npm install uuid
+```
+```bash
+npm install yup
+```
+```bash
+npm install zustand
+```
+
+---
+
+## 🧰 Expo Native Dependencies (If Using Expo)
+
+```bash
+npx expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context react-native-svg
+```
+
+---
+
+## 🍎 iOS CocoaPods (For Non-Expo iOS Projects)
+
+```bash
+npx pod-install
+```
+
+---
+
+## ⚙️ Reanimated Configuration
+
+**Import in Entry File (e.g., `index.tsx`)**
+
+```js
+import 'react-native-reanimated';
+```
+
+**babel.config.js Setup**
+
+```js
+module.exports = {
+  presets: ['module:metro-react-native-babel-preset'],
+  plugins: [
+    // Other plugins
+    'react-native-reanimated/plugin',
+  ],
+};
+```
+
+---
+
+## ❤️ Made with love by Kaushik
+
+> The best code starts with passion and ends with perfection.
