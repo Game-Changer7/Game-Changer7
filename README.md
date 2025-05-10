@@ -283,6 +283,9 @@ npm install yup
 npm install zustand
 ```
 
+```bash
+npm install --save-dev @babel/core @babel/preset-env @babel/preset-typescript babel-jest
+```
 ---
 
 ## 🧰 Expo Native Dependencies (If Using Expo)
